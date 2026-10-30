@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "clientmod",
+  "version": "${version}",
+  "name": "Client",
+  "description": "ClickGUI (Right Shift), TriggerBot, AimAssist, ESP, Server Helper, Freecam, HUD (FPS, Target, Keybinds, Potions, Watermark)",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.client.ClientMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=8"
+  }
+}
